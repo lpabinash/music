@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./musicplayer.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b50f19aeb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="player-wrapper">
+        <div>
+            <audio id="sample" src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/without-you.mp3">
+                <!-- <source id="filelink" /> -->
+            </audio>
+        <img id="biggerimage" class="thumbnail" src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg">
+        </div>
+        <div class="progress-bar">
+            <div id="bar" class="progress" style="width: 1%;"> 
+            </div>
+            <div id="controls">
+                <i id="others" class="fas fa-random"></i>
+                <i id="backward" class="fas fa-step-backward"></i>
+                <i id ="Play-btn" class="far fa-play-circle fa-3x"></i>
+                <i id ="Pause-btn" class="far fa-pause-circle fa-3x"></i>
+                <i id="forward" class="fas fa-step-forward"></i>
+                <i id="repeat" class="fas fa-undo"></i>
+            </div>
+            <h1 id="musictitle">
+                WITHOUT YOU
+            </h1>
+            <h3 id="artistname">Avicii</h3>
+        </div>
+        </div>
+     <div id="playlist-wrapper">
+            <!-- <div id="audio">
+                <div id="smallerthumbnail">
+                <img src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg">
+                </div>
+                <div id="details">
+                <h1>WITHOUT YOU</h1>
+                <h1>Avicii</h1> -->
+                </div>
+            </div>
+     </div></div>
+    
+
+
+
+
+    
+    <script src="./musicplayer.js"></script>
+</body>
+</html>
